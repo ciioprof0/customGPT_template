@@ -1,13 +1,15 @@
-# HexArch Template
+# CustomGPT Template
 
-This repository provides a foundational template for building applications following the Hexagonal Architecture (also known as Ports and Adapters Architecture) following general guidance in [*Architecture Patterns with Python*](https://learning.oreilly.com/library/view/architecture-patterns-with/9781492052197/) with additions for data science, machine learning, and natural language process (NLP) workflows. It includes provisions for common components such as web entry points, data storage, and machine learning (ML) models, along with a structured approach to organizing tests, configuration files, and documentation.
+***Under Development - Most files have not been changed from the parent template.***
+
+This repository provides a foundational template for building large-language model (LLM) applications following the Hexagonal Architecture (also known as Ports and Adapters Architecture) following general guidance in [*Architecture Patterns with Python*](https://learning.oreilly.com/library/view/architecture-patterns-with/9781492052197/) with additions for LLM, data science, machine learning, and natural language process (NLP) workflows. It includes provisions for common components such as web entry points, data storage, and machine learning (ML) models, along with a structured approach to organizing tests, configuration files, and documentation.
 
 ## Directory Structure
 
 The directory structure is organized to facilitate a clean separation of concerns, aligning with Hexagonal Architecture principles:
 
 ```plaintext
-hexarch_template/
+customGPT_template/
 │
 ├── corpora/                # Storage for NLP corpora used in ML or NLP models
 │
@@ -59,8 +61,8 @@ hexarch_template/
 To begin using this template, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/ciioprof0/hexarch_template.git
-cd hexarch_template
+git clone https://github.com/ciioprof0/customGPT_template.git
+cd customGPT_template
 ```
 
 ### 2. **Install Dependencies**
@@ -74,7 +76,7 @@ pip install -r requirements.txt
 If you plan to use Docker, build the Docker image:
 
 ```bash
-docker build -t hexarch_template .
+docker build -t customGPT_template .
 ```
 
 ### 3. **Project Configuration**
